@@ -24,7 +24,7 @@ app.post('/submit', (req, res) => {
             console.error('Error writing to file', err);
             res.status(500).send('Internal Server Error');
         } else {
-            res.send('error 503');
+            console.log(:));
         }
     });
 });
